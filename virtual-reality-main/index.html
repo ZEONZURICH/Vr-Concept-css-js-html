@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Reality</title>
+    <!-- CSS Reset -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Backgound Image -->
+    <div class="bg-image"></div>
+
+    <main>
+      <!-- Overlay -->
+      <div class="overlay">
+        <div class="mobile-menu">
+          <a class="close">
+            <img src="./images/close.svg" alt="">
+          </a>
+
+          <ul>
+            <li>
+              <a href="#" class="mobile-link">products</a>
+            </li>
+
+            <li>
+              <a href="#" class="mobile-link">features</a>
+            </li>
+
+            <li>
+              <a href="#" class="mobile-link">where to buy</a>
+            </li>
+
+            <li>
+              <a href="#" class="mobile-link">Setup</a>
+            </li>
+
+            <li>
+              <a href="#" class="mobile-link">
+                Cart <img src="./images/shopping-bag.svg" alt="">
+              </a>
+            </li>
+          </ul>
+
+          <!-- Social -->
+          <div class="social">
+            <h4>Follow Us:</h4>
+
+            <div class="social-links">
+              <a href="https://www.facebook.com/" class="mobile-link fb" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+
+              <a href="https://www.instagram.com/" class="mobile-link instagram" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+
+              <a href="https://twitter.com/" class="mobile-link twitter" target="_blank">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Header -->
+      <header>
+        <nav>
+          <!-- Brand -->
+          <div class="brand">
+            <a href="/">virtual <span>reality</span></a>
+          </div>
+
+          <!-- Menu Block -->
+          <div class="menu-block">
+            <ul class="menu-list links">
+              <li class="list-item">
+                <a href="#" class="list-link">products</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="list-link">features</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="list-link">where to buy</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="list-link">setup</a>
+              </li>
+            </ul>
+
+            <ul class="menu-list more-options">
+              <li class="list-item">
+                <a href="#" class="list-link hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </a>
+              </li>
+
+              <li class="list-item cart-nav">
+                <a href="#" class="list-link">
+                  <div class="cart">
+                    <div class="img"></div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Hero -->
+      <div class="hero">
+        <div class="container">
+
+          <!-- Text -->
+          <div class="text">
+            <h1 class="section-title">
+              <span>VR Headset</span>
+              <span>HD 4K Display</span>
+            </h1>
+
+            <p>Innovative headset to create the effect of the presence immerses
+              you in the real world with a volume of 360 viewing angle.</p>
+
+              <div class="price">
+                $1499
+
+                <div class="cta-container">
+                  <a href="#" class="btn-prime btn-prime-dark">Buy Now</a>
+                </div>
+              </div>
+
+              <div class="options">
+                <div class="grid-row">
+                  <div class="item">
+                    <div class="info">
+                      <div class="title">Procus VR</div>
+                      <div class="min-price">$539</div>
+                    </div>
+
+                    <div class="image">
+                      <img src="./images/procus-VR.png" class="img-fluid" alt="">
+                    </div>
+
+                    <button>
+                      <div class="cart">
+                        <div class="img"></div>
+                      </div>
+                    </button>
+                  </div>
+
+                  <div class="item">
+                    <div class="info">
+                      <div class="title">Gear VR</div>
+                      <div class="min-price">$849</div>
+                    </div>
+
+                    <div class="image">
+                      <img src="./images/gear-VR.png" class="img-fluid" alt="">
+                    </div>
+
+                    <button>
+                      <div class="cart">
+                        <div class="img"></div>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
